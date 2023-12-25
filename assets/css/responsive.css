@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 790px) {
   html {
     min-width: -moz-fit-content;
     min-width: fit-content;
@@ -145,5 +145,38 @@
   header nav img {
     height: 80px;
     width: 80px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+  header {
+    height: 900px;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  header nav img {
+    width: 100px;
+    height: 100px;
+  }
+  header nav a {
+    display: none;
+  }
+  header nav .nav__stats {
+    display: none;
+  }
+  header nav .res_nav {
+    display: block;
+  }
+  header nav .res_nav img {
+    width: 80px;
+    height: 80px;
+  }
+  footer .footer__content--right {
+    padding-top: 40px;
+  }
+  footer .footer__content--left {
+    border-left: 1px solid #d9d9d9;
+    padding-left: 40px;
   }
 }/*# sourceMappingURL=responsive.css.map */
